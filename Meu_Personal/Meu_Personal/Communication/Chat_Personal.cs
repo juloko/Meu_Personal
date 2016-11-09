@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using App_Gym_JM_final.UserServices;
+using Meu_Personal.UserServices;
 
-namespace App_Gym_JM_final.Communication
+namespace Meu_Personal.Communication
 {
     class Chat_Personal : Chat
     {

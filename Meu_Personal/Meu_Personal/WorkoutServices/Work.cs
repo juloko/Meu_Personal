@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App_Gym_JM_final.WorkoutServices
+namespace Meu_Personal.WorkoutServices
 {
     class Work
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App_Gym_JM_final.UserServices
+namespace Meu_Personal.UserServices
 {
     class Person : User
     {

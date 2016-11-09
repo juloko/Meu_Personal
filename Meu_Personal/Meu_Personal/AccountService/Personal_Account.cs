@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using App_Gym_JM_final.UserServices;
-using App_Gym_JM_final.WorkoutServices;
+using Meu_Personal.UserServices;
+using Meu_Personal.WorkoutServices;
 
-namespace App_Gym_JM_final.AccountServices
+namespace Meu_Personal.AccountServices
 {
     class Personal_Account : Account
     {

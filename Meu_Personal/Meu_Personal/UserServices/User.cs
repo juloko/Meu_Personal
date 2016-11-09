@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace App_Gym_JM_final.UserServices
+namespace Meu_Personal.UserServices
 {
     public class User
     {

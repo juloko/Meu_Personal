@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using App_Gym_JM_final.UserServices;
-using App_Gym_JM_final.Communication;
+using Meu_Personal.UserServices;
+using Meu_Personal.Communication;
 
-namespace App_Gym_JM_final.AccountServices
+namespace Meu_Personal.AccountServices
 {
     class Account
     {

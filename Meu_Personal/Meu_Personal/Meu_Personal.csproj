@@ -48,8 +48,8 @@
     <Compile Include="Communication\Chat_Group.cs" />
     <Compile Include="Communication\Chat_Personal.cs" />
     <Compile Include="Communication\Message.cs" />
-    <Compile Include="PaymentServices\Payment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServicesByGym\IService.cs" />
     <Compile Include="UserServices\Customer.cs" />
     <Compile Include="UserServices\Gym.cs" />
     <Compile Include="UserServices\Manager.cs" />
