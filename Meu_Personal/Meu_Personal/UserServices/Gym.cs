@@ -10,6 +10,7 @@ namespace App_Gym_JM_final.UserServices
     {
         private String cnpj;
         private String name;
+        private String linkPayment;
         private List<Manager> managers;
         private List<Trainer> trainers;
         private List<Customer> clients;
