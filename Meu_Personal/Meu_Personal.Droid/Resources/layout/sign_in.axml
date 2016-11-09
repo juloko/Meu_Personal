@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="200.0dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="100.0dp"
+        android:layout_marginBottom="50.0dp" />
+    <EditText
+        android:inputType="text"
+        android:layout_width="360.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editLogin"
+        android:layout_marginLeft="11.0dp"
+        android:text="Login" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="360.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPassword"
+        android:layout_marginLeft="11.0dp"
+        android:text="Senha" />
+    <Button
+        android:text="Entrar"
+        android:layout_width="81.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_marginLeft="148.5dp" />
+</LinearLayout>

@@ -10,6 +10,7 @@ namespace Meu_Personal.UserServices
     {
         private String cnpj;
         private String name;
+        private String linkPayment;
         private List<Manager> managers;
         private List<Trainer> trainers;
         private List<Customer> clients;
