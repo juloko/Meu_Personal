@@ -134,6 +134,10 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\Downloads\dotnet-master\source\Uol.PagSeguro\Uol.PagSeguro.csproj">
+      <Project>{babc5658-6afd-4f8e-81f1-434553663d99}</Project>
+      <Name>Uol.PagSeguro</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Meu_Personal\Meu_Personal.csproj">
       <Project>{caee87de-3a8e-4d56-aaed-42c4c8275083}</Project>
       <Name>Meu_Personal</Name>

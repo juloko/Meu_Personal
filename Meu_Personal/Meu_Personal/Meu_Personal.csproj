@@ -49,9 +49,11 @@
     <Compile Include="Communication\Chat_Personal.cs" />
     <Compile Include="Communication\Message.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServicesByGym\BankAccount.cs" />
     <Compile Include="ServicesByGym\IService.cs" />
     <Compile Include="ServicesByGym\Payment.cs" />
     <Compile Include="ServicesByGym\Service.cs" />
+    <Compile Include="UserServices\CreditCard.cs" />
     <Compile Include="UserServices\Customer.cs" />
     <Compile Include="UserServices\Gym.cs" />
     <Compile Include="UserServices\IUser.cs" />
