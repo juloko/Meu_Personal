@@ -50,8 +50,11 @@
     <Compile Include="Communication\Message.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServicesByGym\IService.cs" />
+    <Compile Include="ServicesByGym\Payment.cs" />
+    <Compile Include="ServicesByGym\Service.cs" />
     <Compile Include="UserServices\Customer.cs" />
     <Compile Include="UserServices\Gym.cs" />
+    <Compile Include="UserServices\IUser.cs" />
     <Compile Include="UserServices\Manager.cs" />
     <Compile Include="UserServices\Person.cs" />
     <Compile Include="UserServices\Trainer.cs" />

@@ -9,11 +9,13 @@ namespace Meu_Personal.ServicesByGym
 {
     interface IService
     {
-        String getName();
-        String getDescrition();
         String getButtonPayment();
-        Customer getClient();
         bool statusPayment();
-        
+        bool notifyParts();
+        Gym searchGymById();
+        User searchUserById();
+        Payment searchPaymentById();
+        List<Gym> searchGymByName();
+        List<User> searchUserByName();
     }
 }

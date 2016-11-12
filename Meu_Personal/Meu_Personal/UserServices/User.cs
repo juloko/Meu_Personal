@@ -7,7 +7,7 @@ namespace Meu_Personal.UserServices
         private String username;
         private String password;
         private String email;
-        private int id { get; }
+        private String idUser;
         private DateTime dateRegister;
 
         public User(String username, String password, String email)
@@ -16,6 +16,7 @@ namespace Meu_Personal.UserServices
             this.password = password;
             this.email = email;
             this.dateRegister = DateTime.Today;
+            gerateIdUser();
         }
 
         public User(String username, String password, String email, DateTime date)
@@ -24,7 +25,13 @@ namespace Meu_Personal.UserServices
             setPassword(password);
             this.email = email;
             this.dateRegister = date;
+            gerateIdUser();
 
+        }
+
+        private void gerateIdUser()
+        {
+            idUser = Guid.NewGuid().ToString();
         }
 
         public String getUsername()
