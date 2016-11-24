@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Meu_Personal.AccountService;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace Meu_Personal.AccountServices
         private String name;
         private String description;
         private String level;
+        private List<Friendship> friends;
         private int age;
         private long id;
 

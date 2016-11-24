@@ -37,11 +37,14 @@
   <ItemGroup>
     <Compile Include="AccountService\Account.cs" />
     <Compile Include="AccountService\Client_Account.cs" />
+    <Compile Include="AccountService\Coment.cs" />
+    <Compile Include="AccountService\Friendship.cs" />
     <Compile Include="AccountService\IAccount.cs" />
     <Compile Include="AccountService\Manager_Account.cs" />
     <Compile Include="AccountService\Personal_Account.cs" />
     <Compile Include="AccountService\Profile.cs" />
     <Compile Include="AccountService\Profile_Comercial.cs" />
+    <Compile Include="AccountService\Rating.cs" />
     <Compile Include="AccountService\Register.cs" />
     <Compile Include="App.cs" />
     <Compile Include="Communication\Chat.cs" />
