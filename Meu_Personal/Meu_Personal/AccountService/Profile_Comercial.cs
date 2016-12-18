@@ -12,5 +12,17 @@ namespace Meu_Personal.AccountServices
         private String name;
         private String city;
         private Rating rating;
+
+        Profile_Comercial(String name, String city)
+        {
+            rating = new Rating();
+            this.name = name;
+            this.city = name;
+        }
+
+        public void addNewRating(double grade, Coment coment)
+        {
+            rating.addNewRating(grade, coment);
+        }
     }
 }

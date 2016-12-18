@@ -14,8 +14,7 @@ namespace Meu_Personal.Droid
     {
         protected override void OnCreate(Bundle bundle)
         {
-            TabLayoutResource = Resource.Layout.Tabbar;
-            ToolbarResource = Resource.Layout.Toolbar;
+            TabLayoutResource = Resource.Layout.main;
 
             base.OnCreate(bundle);
 

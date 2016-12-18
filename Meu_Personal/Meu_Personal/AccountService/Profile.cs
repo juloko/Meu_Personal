@@ -12,9 +12,22 @@ namespace Meu_Personal.AccountServices
         private String name;
         private String description;
         private String level;
-        private List<Friendship> friends;
+        private List<long> friendsId;
         private int age;
         private long id;
+
+        public void AddNewFriend(long id)
+        {
+
+        }
+
+        public Profile(String name, String description, String level, int age)
+        {
+            this.name = name;
+            this.description = description;
+            this.level = level;
+            this.age = age;
+        }
 
         public string Name
         {
@@ -79,14 +92,6 @@ namespace Meu_Personal.AccountServices
             {
                 id = value;
             }
-        }
-
-        public Profile(String name, String description, String level, int age)
-        {
-            this.name = name;
-            this.description = description;
-            this.level = level;
-            this.age = age;
         }
     }
 }

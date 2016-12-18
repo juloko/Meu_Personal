@@ -39,6 +39,7 @@
     <Compile Include="AccountService\Client_Account.cs" />
     <Compile Include="AccountService\Coment.cs" />
     <Compile Include="AccountService\Friendship.cs" />
+    <Compile Include="AccountService\FriendshipRequest.cs" />
     <Compile Include="AccountService\IAccount.cs" />
     <Compile Include="AccountService\Manager_Account.cs" />
     <Compile Include="AccountService\Personal_Account.cs" />
