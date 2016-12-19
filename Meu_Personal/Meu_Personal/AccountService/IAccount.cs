@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Meu_Personal.UserServices;
 using Meu_Personal.WorkoutServices;
 
-namespace Meu_Personal.AccountServices
+namespace Meu_Personal.AccountService
 {
     interface IAccount
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Meu_Personal.UserServices;
 
-namespace Meu_Personal.AccountServices
+namespace Meu_Personal.AccountService
 {
     class Register
     {

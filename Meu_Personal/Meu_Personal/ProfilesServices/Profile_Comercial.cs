@@ -1,11 +1,12 @@
 ﻿using Meu_Personal.AccountService;
+using Meu_Personal.InterationServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Meu_Personal.AccountServices
+namespace Meu_Personal.ProfilesServices
 {
     class Profile_Comercial
     {

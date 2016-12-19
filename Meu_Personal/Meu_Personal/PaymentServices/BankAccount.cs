@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Meu_Personal.UserServices
+namespace Meu_Personal.PaymentServices
 {
-    class CreditCard
+    class BankAccount
     {
     }
 }

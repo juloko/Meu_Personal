@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Meu_Personal.UserServices;
 
-namespace Meu_Personal.ServicesByGym
+namespace Meu_Personal.PaymentServices
 {
     class Payment
     {

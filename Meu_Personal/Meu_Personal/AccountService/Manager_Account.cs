@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Meu_Personal.Communication;
 using Meu_Personal.UserServices;
 
-namespace Meu_Personal.AccountServices
+namespace Meu_Personal.AccountService
 {
     class Manager_Account : Account
     {

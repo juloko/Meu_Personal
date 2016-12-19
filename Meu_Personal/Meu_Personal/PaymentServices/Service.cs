@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Meu_Personal.ServicesByGym
+namespace Meu_Personal.PaymentServices
 {
     class Service
     {

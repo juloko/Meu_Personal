@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace Meu_Personal.Droid
 {
-    [Activity(Label = "Meu_Personal", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Meu_Personal", Icon = "@drawable/icon", Theme = "@style/Theme.Custom", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)

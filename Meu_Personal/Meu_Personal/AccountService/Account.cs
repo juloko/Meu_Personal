@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Meu_Personal.UserServices;
 using Meu_Personal.Communication;
 
-namespace Meu_Personal.AccountServices
+namespace Meu_Personal.AccountService
 {
     class Account
     {
