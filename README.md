@@ -131,6 +131,7 @@
  <p align="justify" >No pacote user estarão mantidas apenas as informações relacionadas ao usuário, como login, senha e dados pessoais. Sendo dividido o tipo de usuário em três com diferentes tipos Gerente, treinador e aluno.</p>
  No pacote foi utilizado o design pattern Abstract Factory. Contendo uma super classe User e três classes filhas que herdam os dados de User.
  <p align="center" >
+ 
  ![user_diagram](https://cloud.githubusercontent.com/assets/9977351/18956370/97084d3c-8631-11e6-8721-888cc05daddf.png)
  
  <h3>Pacote Account</h3>
