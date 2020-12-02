@@ -24,13 +24,9 @@
  
  <h2> Arquitetura do Sistema:</h2>
  
- <b align = "center">
  <p align="center" >
-  
-
- ![arquitetura_meupersonal](https://cloud.githubusercontent.com/assets/9977351/18939403/72ec832e-85d6-11e6-814e-1dbcc9066912.png)
-
- </b>
+  <img alt="arquitetura_meupersonal" src="https://cloud.githubusercontent.com/assets/9977351/18939403/72ec832e-85d6-11e6-814e-1dbcc9066912.png">
+ </p>
  
  <h1> Funcionalidades:</h1><br>
  <h2>User stories</h2>
@@ -132,29 +128,34 @@
  No pacote foi utilizado o design pattern Abstract Factory. Contendo uma super classe User e três classes filhas que herdam os dados de User.
  <p align="center" >
  
- ![user_diagram](https://cloud.githubusercontent.com/assets/9977351/18956370/97084d3c-8631-11e6-8721-888cc05daddf.png)
+ <p align="center" >
+  <img alt="user_diagram" src="https://cloud.githubusercontent.com/assets/9977351/18956370/97084d3c-8631-11e6-8721-888cc05daddf.png">
+ </p>
  
  <h3>Pacote Account</h3>
  
  <p align="justify" >Neste pacotes estão contidas a estruturação por composiçao de todas as informações relacionadas ao usuário como treinos, informações pessoais e troca de mensagens. Para garantir a segurança e consistencia dos dados contidos em cada classe se faz necessário uma forte utilização de encapsulamento dos dados de cada objeto. A classe Account é composta por objetos dos tipos User, Chat, Profile e Workout.</p>
+ 
  <p align="center" >
-  
-![account_simplificado 1](https://cloud.githubusercontent.com/assets/9977351/18956621/6ef08a66-8632-11e6-9f4d-cca900dac014.png)
+  <img alt="account_simplificado" src="https://cloud.githubusercontent.com/assets/9977351/18956621/6ef08a66-8632-11e6-9f4d-cca900dac014.png">
+ </p>
 
  <h3>Pacote Workout</h3>
  
  <p align="justify" >No pacote workout contém um conjunto de treinos onde estão agrupados os exercício. Possui uma interface WorkoutService por onde será possível realizar alterações no treinamento do usuário garantindo assim o baixo acoplamento e garantindo a consistencia dos dados.
  O pacote é composto de classes do tipo Exercise, Workout e a interface WorkoutServices.</p>
+ 
  <p align="center" >
-  
- ![workout_diagram](https://cloud.githubusercontent.com/assets/9977351/18962905/0086111a-8649-11e6-9348-f54458579036.png)
+  <img alt="workout_diagram" src="https://cloud.githubusercontent.com/assets/9977351/18962905/0086111a-8649-11e6-9348-f54458579036.png">
+ </p>
  
  <h3>Pacote Communication</h3>
  
  <p align="justify" >O pacote fornecerá inicialmente a estrutura necessária para a comunicação entre dois usuários. O pacote é composto por dois tipos basicos de classe que são Chat e Message. A classe Chat fará a comunicação final com a interface gráfica e é composta por objetos dos tipos User e Message. Ainda deverá ser analisado o uso de uma interface para fazer a comunicação e troca de informações com a interface gráfica fornecida ao usuário.</p>
+ 
  <p align="center" >
-  
- ![communication_diagram](https://cloud.githubusercontent.com/assets/9977351/18962916/07e0ac18-8649-11e6-821b-96276ec4fdc1.png)
+  <img alt="communication_diagram" src="https://cloud.githubusercontent.com/assets/9977351/18962916/07e0ac18-8649-11e6-821b-96276ec4fdc1.png">
+ </p>
  
  <h1> Views</h1>
  
@@ -162,9 +163,9 @@
  
  <p align="justify" >A tela inicial será a tela de apresentação contendo apenas a logo do aplicativo e mais dois botões "Novo por aqui?" e "Não" que levam o usuário a tela de cadastro e a tela de login respectivamente.</p>
  
- <p align="center" >
- 
-![inicial](https://cloud.githubusercontent.com/assets/9977351/18917578/95d19126-856e-11e6-841d-7c4394a5fdf2.jpg)
+  <p align="center" >
+   <img alt="inicial" src="https://cloud.githubusercontent.com/assets/9977351/18917578/95d19126-856e-11e6-841d-7c4394a5fdf2.jpg">
+  </p>
  
  <h3>Tela de Cadastro</h3>
  
@@ -175,7 +176,9 @@
  Tela de Login interativa contando apenas com os dois campo e botões para login com facebook ou instagram. E caso opte pelo login por username e senha após sair do campo login realiza uma busca no banco de dados a procura do usuario e o numero de caracteres que possui sua senha, caso não encontrado exibe mensagem de erro. Quando encontrado e o numero de caractere do campo password atingir o numero de caracteres da senha realiza tentativa de login.
   <p align="center" >
  
-![sign-up](https://cloud.githubusercontent.com/assets/9977351/18972847/2323f908-8671-11e6-82d4-0aa608a4d84f.png)
+  <p align="center" >
+   <img alt="sign-up" src="https://cloud.githubusercontent.com/assets/9977351/18972847/2323f908-8671-11e6-82d4-0aa608a4d84f.png">
+  </p>
 
  </p>
  <h3>Menu</h3>
